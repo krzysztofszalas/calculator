@@ -5,7 +5,7 @@ services:
     image: calculator
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile_git_task
     environment:
       NODE_ENV: production
     ports:
